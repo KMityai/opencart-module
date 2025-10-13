@@ -281,7 +281,7 @@
                     <div class="col-md-4 col-sm-10">
                       <select id="retailcrm_store_select" name="retailcrm_store_select" class="form-control">
                         <?php foreach ($crmStocks as $crmStock): ?>
-                        <?php if ($crmStock['active'] == true :?>
+                        <?php if ($crmStock['active'] == true) :?>
                         <option value="<?php echo $crmStock['code'];?>" <?php if(isset($saved_settings['retailcrm_store_select']) && $crmStock['code'] == $saved_settings['retailcrm_store_select']):?> selected="selected"<?php endif;?>>
                         <?php echo $$crmStock['name'];?>
                         </option>
