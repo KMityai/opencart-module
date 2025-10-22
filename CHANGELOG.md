@@ -1,3 +1,6 @@
+## v4.2.3
+* Fix code syntax in retailcrm.tpl
+
 ## v4.2.2
 * Fix history processing
 
